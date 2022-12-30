@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Contacts</title>
+</head>
+<body>
+<fieldset>
+
+<legend><h1>My Contacts details</h1></legend>
+    <p>My Fictional Address : 240, rue de laverendri, cap lamandou</p>
+    <p>Phone number : 1234567890</p>
+    <p>You can write us at this email:<em>info@emploisdomainesante.ca</em></p>
+
+</fieldset>
+
+<p>
+
+<legend> <strong> <h3>Informations personnelles</h3></strong></legend>
+   
+<form action="mailto:info@emploisdomainesante.ca" method="post" enctype="text/plain">
+    <label>First name</label><input type="text" name="Firstname" value="" required minlength="4" maxlength="12" size="16"><br>
+ 
+    <label for="">Last name</label>
+    <input type="text" name="Lastname" value="" required minlength="4" maxlength="12" size="16">
+    <br><br>
+    <p>Parlez-nous de vous</p>
+<textarea name="Yourmessage" id="message" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <label for="">Sexe</label>
+    <br>
+    <label for="">M</label><input type="radio" name="Sexe" id="Homme"> 
+    <label for="">F</label><input type="radio" name="Sexe" id="Femme">
+    <br><br>
+    <input type="file" name="file" id="upload">
+    <br><br>
+    <input type="submit" >
+
+</form> 
+
+ <p><a href="Myfirstsite.html">Back</a></p>
+</body>
+</html>
